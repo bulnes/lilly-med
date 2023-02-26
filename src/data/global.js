@@ -1,4 +1,11 @@
 export const dataConfig = {
+  seoGlobal: {
+    title: "Lilly Med - Medicina Estética",
+    description:
+      "Lilly Med é o maior clube de estética de alta tecnologia do Brasil. Tratamentos estéticos e depilação a laser por preços acessíveis e atendimento personalizado. Conheça nossas clínicas.",
+    keywords:
+      "Lilly Med, medicina estética, alta tecnologia, tratamentos estéticos, preços acessíveis, atendimento personalizado, depilação a laser",
+  },
   clubs: {
     lillyClub: {
       name: "Lilly Club",

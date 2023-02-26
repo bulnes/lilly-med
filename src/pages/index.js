@@ -5,10 +5,16 @@ import { ProcedureCard } from "@/components/ProcedureCard/ProcedureCard";
 import { SectionHeader } from "@/components/SectionHeader/SectionHeader";
 import { Section } from "@/components/Section/Section";
 import { Slider } from "@/components/Slider/Slider";
+import Head from "next/head";
 
 export default function Home({ clubs, helpCards, procedures }) {
+  const { seoGlobal } = dataConfig;
+
   return (
     <>
+      <Head>
+        <title>{seoGlobal.title}</title>
+      </Head>
       <Section>
         <SectionHeader>
           <h2>Conheça os nossos clubes</h2>
